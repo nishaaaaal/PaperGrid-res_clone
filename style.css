@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.top-bar{
+    background-color: #121212;
+    border-bottom: .1px solid #252525;
+}
+.top-bar-link {
+    text-decoration: none; 
+    font-size: normal;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu, "Helvetica Neue", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+
+    
+}
+.top-bar-link:hover {
+    color: white; /* Optional: Change text color on hover */
+}
+.top-bar:hover {
+        background-color:#353839;
+        transition: all 0.15s ease;
+}
+
+.navbar{
+    background-color:#121212;
+}
+.navbar-toggler {
+    margin-left: -6rem; /* Adjust space between the toggler and logo */
+}
+.navbar-collapse ul{
+    margin-left: 10px;
+}
+
+
+
+
+.navbar-icons {
+    display: inline-block;
+}
+
+.navbar-icons:hover {
+    transform: scale(1.05); 
+}
+
+.navbar .container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Ensures proper alignment of left and right content */
+}
+
+.navbar .navbar-icons#cart {
+    order: 1; /* Move the cart icon to appear immediately after the profile icon */
+    margin-right: 50px; /* Adjust spacing if necessary */
+}
+
+.nav-item .nav-link:not(.text-decoration-underline):hover {
+    text-decoration: underline;
+}
+
+
+
+.container-fluid{
+    padding-left: 120px;
+}
+.navbar-profile{
+    background-color: black;
+    shap: white;
+}
+
+.custom-btn {
+    background-color: black !important; 
+    color: white;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.2s ease; 
+    border-radius: 0; 
+}
+
+.custom-btn:hover {
+    transform: scale(1.03); 
+}
+
+
+  
+.contact-info h4:hover { 
+color: white !important; 
+cursor: pointer; 
+}
+  
+
+
+
+.contact-link:hover {
+    color: white;
+  }
+
+.social-icon {
+    color: white; 
+    display: inline-block; 
+    font-size: 1.5em; 
+}
+
+.social-icon:hover {
+    transform: scale(1.05); 
+}
+
+.footer-link {
+    color: inherit; 
+    text-decoration: none; 
+    transition: color 0.3s ease, text-decoration-color 0.3s ease; 
+    }
+
+
+.footer-link:hover {
+    color: white;
+    text-decoration: underline; 
+    text-decoration-color: white;
+    }
+
+footer{
+    background-color: #121212;
+}
+
